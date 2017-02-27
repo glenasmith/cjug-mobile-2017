@@ -52,6 +52,10 @@ _Wireframe of what we're building_
 
 ---
 
+# Following along at home?
+> Grab the [Source Code](https://github.com/glenasmith/cjug-mobile-2017) for this talk.
+
+---
 
 # Progressive Web Apps
 > If you love the Web
@@ -182,4 +186,6 @@ _Wireframe of what we're building_
 ---
 
 # Thoughts?
+> We would love to here your experiences! 
+> (you might even want to give a talk :-) 
 
