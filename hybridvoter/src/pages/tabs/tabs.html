@@ -32,9 +32,9 @@
 <div [ngSwitch]="segment">
   <ion-list *ngSwitchCase="'vote'" reorder="true" (ionItemReorder)="reorderItems($event)">
     <ion-item *ngFor="let candidate of candidates">
-      <ion-thumbnail item-left>
+      <ion-avatar item-left>
         <img [src]="candidate.avatar">
-      </ion-thumbnail>
+      </ion-avatar>
       <h2>{{ candidate.name }}</h2>
       <p>{{ candidate.description }}</p>
     </ion-item>
