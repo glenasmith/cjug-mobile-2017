@@ -39,7 +39,7 @@ glen@bytecode.com.au
 ---
 
 # Voteamatic Redux
-> Our [CJUG voting app](http://cjugaustralia.org/votamatic/) goes mobile
+> Narative: Our [CJUG voting app](http://cjugaustralia.org/votamatic/) goes mobile
 
 ---
 
