@@ -1,0 +1,50 @@
+<ion-header>
+
+   <ion-navbar no-border-bottom>
+    <ion-title>
+      Hybrid Voter
+    </ion-title>
+
+<ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="settings"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+
+<ion-toolbar no-border-top>
+  <ion-segment [(ngModel)]="segment">
+    <ion-segment-button value="vote">
+      Vote
+    </ion-segment-button>
+    <ion-segment-button value="results">
+      Results
+    </ion-segment-button>
+  </ion-segment>
+
+</ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+
+<div [ngSwitch]="segment">
+  <ion-list *ngSwitchCase="'vote'" reorder="true" (ionItemReorder)="reorderItems($event)">
+    <ion-item *ngFor="let candidate of candidates">
+      <ion-thumbnail item-left>
+        <img [src]="candidate.avatar">
+      </ion-thumbnail>
+      <h2>{{ candidate.name }}</h2>
+      <p>{{ candidate.description }}</p>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-list *ngSwitchCase="'results'">
+    <canvas baseChart chartType="doughnut" [data]="donutData" [labels]="donutLabels">
+
+      </canvas>
+  </ion-list>
+</div>
+</ion-content>

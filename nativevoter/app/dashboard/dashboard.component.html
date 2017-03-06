@@ -1,0 +1,34 @@
+<ActionBar title="Native Voter" class="action-bar">
+</ActionBar>
+
+<TabView [selectedIndex]="tabindex" sdkExampleTitle sdkToggleNavButton>
+  <DockLayout *tabItem="{title: 'Vote'}">
+    <!--
+    <Button dock="bottom" class="btn btn-primary btn-active" id="button" text="Vote" ></Button>
+    -->
+    <ActivityIndicator [busy]="!candidates"></ActivityIndicator>
+    <ScrollView *ngIf="candidates">
+
+      <ListView [items]="candidates" class="list-group" >
+        <template let-candidate="item" let-i="index" let-odd="odd" let-even="even">
+          <GridLayout class="list-group-item" rows="*" columns="auto, *">
+            <Image row="0" col="0" [src]="candidate.avatar" class="thumb img-circle"></Image>
+            <StackLayout row="0" col="1" >
+              <Label class="list-group-item-heading" [text]="candidate.name"></Label>
+              <Label class="list-group-item-text" [text]="candidate.description"></Label>
+            </StackLayout>
+          </GridLayout>
+        </template>
+      </ListView>
+
+    </ScrollView>
+    
+  </DockLayout>
+  <DockLayout *tabItem="{title: 'Results'}">
+    <ActivityIndicator [busy]="!candidates"></ActivityIndicator>
+    <RadPieChart tkExampleTitle tkToggleNavButton>
+        <DonutSeries tkPieSeries  [items]="candidates" legendLabel="name" valueProperty="votes" showLabels="true" legendLabel="name"></DonutSeries>
+        <RadLegendView tkPieLegend position="Right" offsetOrigin="TopRight" width="110"></RadLegendView>
+    </RadPieChart>
+  </DockLayout>
+</TabView>
