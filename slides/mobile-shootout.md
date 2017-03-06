@@ -20,13 +20,13 @@ glen@bytecode.com.au
 
 # Finding #1: These are *all* awesome options
 
-> What you choose is really about your prefs
+> What you choose is really about your prefs.
 
 ---
 
 # Finding #2: These are *all* compromises on platform-specific code
 
-> What you choose is also about features you need
+> What you choose is also about features you need, and what you are into.
 
 ---
 
@@ -34,21 +34,12 @@ glen@bytecode.com.au
 
 * I love it and find it compelling for enterprise web
 * All of these framework love Angular
-* I will be re-using the same Angular src across all platforms
+* I will be re-using the same* Angular src across all platforms
 
 ---
 
 # Voteamatic Redux
-> Our CJUG voting app goes mobile
-
----
-
-_Screenshot of Web Votamatic goes here_
-
----
-
-_Wireframe of what we're building_
-
+> Our [CJUG voting app](http://cjugaustralia.org/votamatic/) goes mobile
 
 ---
 
@@ -57,41 +48,51 @@ _Wireframe of what we're building_
 
 ---
 
-# Progressive Web Apps
-> If you love the Web
+# Option 1
 
 ---
 
-# Why PWA?
-* Come for the website, stay for the app
-* Launch & Notification integration to the Device
-* Great offline experience (for developers too)
+# NativeScript Native Apps
+> Love JS, but want Native UI and Libs
+
+---
+
+# Why NativeScript?
+* No WebViews - all Native UI Widgets and Libs
+* Performance is *close* to Native
+* You **don't** want to maintain Swift and Kotlin codebases/skillsets.
+* You **do** want to use native libs 
+
+---
+
+# Tech In Play
+
+* Compile time dynamic generation of proxy code
+* Lots of reflection with callsite optimisation 
 
 ---
 
 # Game Changing Angle
-* No app stores required (do they even work?)
-* Your app will turn up in search results (as an app)
-* There is no "redirect to app store" angle - you're here already
+* Re-use your Angular code in a Native app (view layer native)
+* Augment your app with whatever Native libs you want
+* Tons of plugins (that are easy to inspect)
+* Performance and feel is Native
 
 ---
 
-# Tech in Play
-* Manifest file for icon, splash, permissions
-* ServiceWorker for heavy proxy lifting
-
----
-
-# ProgVoter Demo
+# NativeVoter Demo
 
 ---
 
 # Drawbacks
-* Chrome support only (Cordova iOS Shims)
-* Broad interest (Microsoft Universal, Firefox, Apple)
-* Not all native service available
-* Immature toolstack
+* Have to learn a new UI layer and Widget set
+* Emulators. Don't start me.
+* Performance close to native, with some lag
+* Still need a Mac for OSX builds
 
+---
+
+# Option 2
 
 ---
 
@@ -130,43 +131,47 @@ _Wireframe of what we're building_
 
 ---
 
-# NativeScript Native Apps
-> Love JS, but want Native UI and Libs
+# Option 3
 
 ---
 
-# Why NativeScript?
-* No WebViews - all Native UI Widgets and Libs
-* Performance is *close* to Native
-* Don't want to maintain Swift and Kotlin codebases/skillsets.
+# Progressive Web Apps
+> If you love the Web
 
 ---
 
-# Tech In Play
-
-* Compile time dynamic generation of proxy code
-* Lots of reflection with callsite optimisation 
+# Why PWA?
+* Come for the website, stay for the app
+* Launch & Notification integration to the Device
+* Great offline experience (for developers too)
 
 ---
 
 # Game Changing Angle
-* Re-use your Angular code in a Native app (view layer native)
-* Augment your app with whatever Native libs you want
-* Tons of plugins (that are easy to inspect)
-* Performance and feel is Native
+* No app stores required (do they even work?)
+* Your app will turn up in search results (as an app)
+* There is no "redirect to app store" angle - you're here already
 
 ---
 
-# NativeVoter Demo
+# Tech in Play
+* Manifest file for icon, splash, permissions
+* ServiceWorker for heavy proxy lifting
+
+---
+
+# ProgVoter Demo
 
 ---
 
 # Drawbacks
-* Have to learn a new UI layer and Widget set
-* Performance close to native, with some lag
-* Still need a Mac for OSX builds
+* Chrome support only (Cordova iOS Shims)
+* Broad interest (Microsoft Universal, Firefox, Apple)
+* Not all native service available
+* Immature toolstack
 
 ---
+
 
 # So where does that leave us?
 > Web, Hybrid or Native?
