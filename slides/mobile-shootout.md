@@ -10,33 +10,69 @@ glen@bytecode.com.au
 
 ---
 
-# What are we talking about?
+# Tonight's Big Goal
 
-* [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/) (purely native Web applications)
-* [Ionic 2](http://ionicframework.com/) Hybrid Apps (web apps in a native bridge container)
-* [NativeScript](https://www.nativescript.org/) (native apps written in JavaScript - no WebView)
+> Get a vibe for a bunch of frameworks
 
 ---
 
-# Finding #1: These are *all* awesome options
+# I have one month's experience.
+
+> So if you have experiences, please share!
+
+
+---
+
+# Tonight's story goes...
+
+> "I need a mobile app by Friday! Release the chickens!"
+
+---
+
+# What are we talking about?
+
+* [NativeScript](https://www.nativescript.org/) (native apps written in JavaScript - no WebView)
+* [Ionic 2](http://ionicframework.com/) Hybrid Apps (web apps in a native bridge container)
+* [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/) (purely native Web applications)
+
+---
+
+# So... Angular All The Things!
+
+* I love it and find it compelling for enterprise web
+* All of these framework are Angular-centric
+* I will be re-using the same* Angular src across all platforms
+
+---
+
+# What are we **not*** talking about? 
+> Also cool, but not on the agenda
+
+* "Pure" Native approaches
+* [React Native](https://facebook.github.io/react-native/)
+* [Xamarin](https://www.xamarin.com/)
+
+---
+
+# Spoiler Finding #1: These are *all* awesome options
 
 > What you choose is really about your prefs.
 
 ---
 
-# Finding #2: These are *all* compromises on platform-specific code
+# Spoiler Finding #2: These are *all* compromises on platform-specific code
 
 > What you choose is also about features you need, and what you are into.
 
 ---
 
-# Angular All The Things!
 
-* I love it and find it compelling for enterprise web
-* All of these framework love Angular
-* I will be re-using the same* Angular src across all platforms
+# Spoiler Finding #3: These are *all* within your realistic reach
+
+> None of these are targetted for rock stars
 
 ---
+
 
 # Voteamatic Redux
 > Narative: Our [CJUG voting app](http://cjugaustralia.org/votamatic/) goes mobile
@@ -53,7 +89,7 @@ glen@bytecode.com.au
 ---
 
 # NativeScript Native Apps
-> Love JS, but want Native UI and Libs
+> Love Web Dev, but want Native UI and Libs
 
 ---
 
@@ -156,7 +192,8 @@ glen@bytecode.com.au
 
 # Tech in Play
 * Manifest file for icon, splash, permissions
-* ServiceWorker for heavy proxy lifting
+* ServiceWorker for heavy proxy lifting, offline support
+* HTML5 for the rest (IndexedDb, etc)
 
 ---
 
@@ -186,7 +223,14 @@ glen@bytecode.com.au
 
 # Finding #2: These are *all* compromises on platform-specific code
 
-> What you choose is also about features you need
+> What you choose is also about features you need (NFC?)
+
+---
+
+
+# Finding #3: These are *all* within your realistic reach
+
+> None of these are targetted for rock stars
 
 ---
 
