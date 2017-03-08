@@ -3,9 +3,9 @@
 
 <TabView [selectedIndex]="tabindex" sdkExampleTitle sdkToggleNavButton>
   <DockLayout *tabItem="{title: 'Vote'}">
-    <!--
-    <Button dock="bottom" class="btn btn-primary btn-active" id="button" text="Vote" ></Button>
-    -->
+    
+    <Button dock="bottom" class="btn btn-primary btn-active" id="button" text="Vote" (tap)="OnTap()"></Button>
+    
     <ActivityIndicator [busy]="!candidates"></ActivityIndicator>
     <ScrollView *ngIf="candidates">
 

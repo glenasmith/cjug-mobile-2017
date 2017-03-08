@@ -23,6 +23,10 @@ export class DashboardComponent implements OnInit {
 
   }
 
+  OnTap() {
+    alert("Hello");
+  }
+
   ngOnInit() {
     this.voteService.getCandidates().subscribe((cands) => {
 
