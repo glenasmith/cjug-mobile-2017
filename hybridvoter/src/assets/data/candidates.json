@@ -1,58 +1,56 @@
 [
-    {
-        "name": "Big Data",
-        "description": "This is the blurb about them",
-        "avatar": "http://i.pravatar.cc/100?u=bigdata",
-        "votes": 20
-    },
-    {
-        "name": "Build Server Shootout",
-        "description": "This is the blurb about them",
-        "avatar": "http://i.pravatar.cc/100?u=build",
-        "votes": 30
-    },
-    {
-        "name": "Mobile Frameworks",
-        "description": "This is the blurb about them",
-        "avatar": "http://i.pravatar.cc/100?u=mobile",
-        "votes": 10
-
-    },
-    {
-        "name": "Spring Boot",
-        "description": "This is the blurb about them",
-        "avatar": "http://i.pravatar.cc/100?u=boot",
-        "votes": 5
-    },
+  {
+    "name": "Big Data",
+    "description": "This is the blurb about them",
+    "avatar": "assets/images/avatars/a.jpg",
+    "votes": 20
+  },
+  {
+    "name": "Build Server Shootout",
+    "description": "This is the blurb about them",
+    "avatar": "assets/images/avatars/b.jpg",
+    "votes": 30
+  },
+  {
+    "name": "Mobile Frameworks",
+    "description": "This is the blurb about them",
+    "avatar": "assets/images/avatars/c.jpg",
+    "votes": 10
+  },
+  {
+    "name": "Spring Boot",
+    "description": "This is the blurb about them",
+    "avatar": "assets/images/avatars/d.jpg",
+    "votes": 5
+  },
   {
     "name": "Java 9 What's New",
     "description": "So much awesome stuff in the pipe.",
-    "avatar": "http://i.pravatar.cc/100?u=java9",
+    "avatar": "assets/images/avatars/e.jpg",
     "votes": 11
   },
   {
     "name": "Bot Frameworks",
     "description": "Am I an app or a person?",
-    "avatar": "http://i.pravatar.cc/100?u=bot",
+    "avatar": "assets/images/avatars/f.jpg",
     "votes": 15
   },
   {
     "name": "Kotlin",
     "description": "Why Java when you can Kotlin?",
-    "avatar": "http://i.pravatar.cc/100?u=kotlin",
+    "avatar": "assets/images/avatars/g.jpg",
     "votes": 15
   },
   {
     "name": "IoT",
     "description": "Internet all the things",
-    "avatar": "http://i.pravatar.cc/100?u=iot",
+    "avatar": "assets/images/avatars/h.jpg",
     "votes": 12
   },
   {
     "name": "Microservices",
     "description": "REST all day and night",
-    "avatar": "http://i.pravatar.cc/100?u=microservices",
+    "avatar": "assets/images/avatars/i.jpg",
     "votes": 8
   }
-
 ]
