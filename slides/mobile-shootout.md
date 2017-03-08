@@ -98,6 +98,7 @@ glen@bytecode.com.au
 * Performance is *close* to Native
 * You **don't** want to maintain Swift and Kotlin codebases/skillsets.
 * You **do** want to use native libs 
+* You like [good documentation](https://docs.nativescript.org/angular/code-samples/ui/button.html)
 
 ---
 
@@ -141,7 +142,7 @@ glen@bytecode.com.au
 * Single Source UI (CSS Magic per Platform)
 * Lots of Cordova Plugins for Native Stuff
 * Lots of Developers
-* Great docs / samples to learn from
+* [Great docs](http://ionicframework.com/docs/v2/components/) / samples to learn from
 
 ---
 
@@ -180,6 +181,7 @@ glen@bytecode.com.au
 * Come for the website, stay for the app
 * Launch & Notification integration to the Device
 * Great offline experience (for developers too)
+* New and shiny [documentation](https://developers.google.com/web/progressive-web-apps/)
 
 ---
 
