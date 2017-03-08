@@ -22,11 +22,15 @@ self.toolbox.precache(
   ]
 );
 
+// fetch data network first
 self.toolbox.router.any('/assets/data/*.json', self.toolbox.networkFirst);
+
+// use local avatars if you have them
+self.toolbox.router.any('/assets/images/avatars/*.png', self.toolbox.cacheFirst);
 
 // dynamically cache any other local assets
 self.toolbox.router.any('/*', self.toolbox.networkFirst);
-// self.toolbox.router.any('/*', self.toolbox.cacheFirst);
+
 
 // for any other requests go to the network, cache,
 // and then only use that cached resource if your user goes offline
